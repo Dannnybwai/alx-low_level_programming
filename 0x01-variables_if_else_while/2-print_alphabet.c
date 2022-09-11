@@ -3,17 +3,17 @@
 /**
  * main - prints the alphabet
  *
+ * Description: using the main function
+ * this program prints "Programming is positive,zero, or negative
  * return: 0
  */
 int main(void)
 {
-	char alp[26] = "abcdefghijklmnopqrstuvwxyz";
-	int i;
-
-	for (i = 0; 1 < 26; i++)
-	{
-		putchar(aph[i]);
-	}
-	putchar('\n');
-	return (0);
+char ch;
+for (ch = 'a' ; ch <= 'z' ; ch++)
+{
+	putchar(ch);
+}
+putchar('\n');
+return (0);
 }
