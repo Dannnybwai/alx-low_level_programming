@@ -1,10 +1,19 @@
 #include "main.h"
 /**
- * main - entry point
- * Description:  function that prints 10 times the alphabet, in lowercase
+ * print_alphabet_x10 - prints 10 times the alphabet, in lowercase
+ * putchar: print
  * Return: 0
  */
 void print_alphabet_x10(void)
 {
+	char a, b;
 
+	for (a = 0; a <= 9; a++)
+	{
+		for (b = 'a'; b <= 'z'; b++)
+		{
+			_putchar(b);
+		}
+		_putchar('\n');
+	}
 }
