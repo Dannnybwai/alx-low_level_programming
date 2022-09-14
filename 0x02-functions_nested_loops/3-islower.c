@@ -26,8 +26,6 @@ int _islower(int c)
 
 	{
 
-		/* refer int c*/
-
 		if (c == i)
 
 		{
