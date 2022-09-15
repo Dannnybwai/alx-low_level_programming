@@ -8,6 +8,7 @@
  */
 
 void print_times_table(int n)
+
 {
 	int x, y, z;
 
