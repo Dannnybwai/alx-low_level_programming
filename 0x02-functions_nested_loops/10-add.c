@@ -1,9 +1,8 @@
-nclude "main.h"
+#include "main.h"
 
 
 
 /**
- *
  * add - adds two integers
  *
  * @n1: integer 1
@@ -13,7 +12,6 @@ nclude "main.h"
  * Description: give two integers, returns sum
  *
  * Return: sum
- *
  */
 
 
